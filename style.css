@@ -1,0 +1,101 @@
+* {
+  font-family: "SEGOE UI";
+}
+
+body {
+  padding: 1.5em 0.05em;
+}
+
+main {
+  border-radius: 5px;
+  background: #eee;
+  padding: 25px 15px;
+}
+
+h1 {
+  color: #333333;
+  font-size: 2.5rem;
+  margin: 0.5em 0;
+}
+
+.main-title{
+  display: flex;
+  justify-content: center;
+}
+.sub-title {
+  text-align: center;
+  margin: 1em 0;
+}
+.img-container {
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+  
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  margin: 15px 0 5px 0;
+  color: #6b6b6b;
+  text-align: center;
+}
+
+.biography {
+  padding: 0 1rem;
+}
+
+.biography h2 {
+  text-align: center;
+  font-size: 1.15em;
+  margin: 50px 0;
+}
+
+/* 
+.biography {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+} 
+
+*/
+
+.biography ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.biography li {
+  margin: 16px 0;
+}
+
+.biography li span {
+  font-weight: bold;
+}
+
+.more-detail-link {
+  font-weight: bold;
+  text-align: center;
+}
+.testimony {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+
